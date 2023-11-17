@@ -21,7 +21,7 @@ export const styles = StyleSheet.create({
     height: 54,
     flex: 1,
     marginRight: 4,
-    backgroundColor: '#1f1e23',
+    backgroundColor: '#262626',
     borderRadius:6, 
     borderWidth: 1, 
     color: '#f2f2f2',
@@ -49,8 +49,6 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     width: "100%",
     justifyContent: "space-between",
-    borderBottomWidth: 1,
-    borderBottomColor: "#333333",
     paddingBottom: 20,
   },
   info:{
@@ -76,7 +74,9 @@ export const styles = StyleSheet.create({
   emptyList:{
     paddingHorizontal: 20,
     paddingVertical: 48,
-    alignItems: "center"
+    alignItems: "center",
+    borderTopWidth: 1,
+    borderTopColor: "#333333",
   },
   title:{color: "#808080", marginTop:16, fontSize: 14, fontFamily: "Inter_700Bold",},
   subtitle:{color: "#808080", marginTop:8, fontSize: 14, fontFamily: "Inter_400Regular",}
